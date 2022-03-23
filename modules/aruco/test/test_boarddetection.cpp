@@ -42,6 +42,12 @@ the use of this software, even if advised of the possibility of such damage.
 
 namespace opencv_test { namespace {
 
+enum class ArucoAlgParams
+{
+    USE_DEFAULT = 0,
+    USE_ARUCO3 = 1
+};
+
 /**
  * @brief Check pose estimation of aruco board
  */
